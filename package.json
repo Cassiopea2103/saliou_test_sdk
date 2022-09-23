@@ -1,0 +1,24 @@
+{
+  "name": "fetch-api-jsonplaceholder",
+  "version": "1.0.0",
+  "description": "A Package that will let you retrieve data from the jsonplaceholder API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node server"
+  },
+  "keywords": [
+    "jsonplaceholder",
+    "api"
+  ],
+  "author": "Serigne Saliou WADE",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
