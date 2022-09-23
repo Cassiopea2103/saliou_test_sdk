@@ -1,11 +1,11 @@
 {
-  "name": "fetch-api-jsonplaceholder",
+  "name": "salious-api",
   "version": "1.0.0",
   "description": "A Package that will let you retrieve data from the jsonplaceholder API",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "node server"
+    "dev": "nodemon server"
   },
   "keywords": [
     "jsonplaceholder",
